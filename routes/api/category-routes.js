@@ -15,7 +15,13 @@ router.get("/", (req, res) => {
       },
     ],
   })
-    .then((dbCategory) => res.json(dbCategory))
+    .then((dbCategory) => {
+      if (!dbCategory) {
+        res.status(404).json({ message: "No category found with this id" });
+        return;
+      }
+      res.json(dbCategory);
+    })
     .catch((err) => {
       console.log(err);
       res.status(500).json(err);
