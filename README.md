@@ -19,7 +19,7 @@ Once done use Insomnia to try out the application.
 
 ## License
 
-![MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Badges
 
