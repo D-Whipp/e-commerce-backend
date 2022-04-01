@@ -31,5 +31,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Badges
 
-![JavaScript](https://img.shields.io/badge/Built%20With-JavaScript-brightgreen)
+![javascript](https://img.shields.io/badge/language-javascript-blue)
 ![Node](https://img.shields.io/badge/Built%20With-Node-blue)
+![mysql2](https://img.shields.io/badge/mysql2-2.1.0-blue)
+![express](https://img.shields.io/badge/express-4.17.1-blue)
